@@ -1,0 +1,99 @@
+.packages-main-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.packages-div{
+    display: flex;
+    justify-content: center;
+    
+}
+.box{
+    width: 25%;
+    margin: 10px;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .1);
+    border-radius: 5px;
+}
+.box img{
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+.box-inner{
+    margin: 10px;
+}
+.box-inner h1{
+    font-family: "Nunito",sans-serif;
+}
+.box-inner p{
+    font-family: "Nunito",sans-serif;
+    color: #666;
+}
+.box button{
+    background-color: orange;
+    border: 0px;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    font-family: "Nunito",sans-serif;
+    color: white;
+}
+.box h1 i{
+    color: orange;
+}
+.packages-main-container{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width: 1024px) {
+   .packages{
+    margin:50px;
+   }
+    .packages-main-container{
+        justify-content: center;
+    }
+    .box img{
+        width: 256px;
+    }
+    .box button{
+        width: 235px;
+    }
+}
+@media screen and (max-width:768px) {
+    .packages{
+     margin:50px;
+    }
+     .packages-main-container{
+         justify-content: center;
+     }
+     .box img{
+         width:400px;
+
+     }
+     .box button{
+         width: 235px;
+         height: 30px;
+     }
+     .box{
+        width:45%;
+        
+     }
+ }
+ @media screen and (max-width:430px) {
+    .packages{
+     margin:50px;
+    }
+     .packages-main-container{
+         justify-content: center;
+     }
+     .box img{
+         width:400px;
+
+     }
+     .box button{
+         width: 200px;
+         height: 30px;
+     }
+     .box{
+        width:92%;
+        
+     }
+ }

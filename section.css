@@ -1,0 +1,196 @@
+.sectionContent {
+    font-family: "Nunito", sans-serif;
+    margin: auto;
+    position: absolute;
+    color: white;
+    width: 100%;
+    height: 60%;
+    text-align: center;
+    /* right: 300px; */
+    /* top: 150px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionContent h1 {
+    font-size: 50px;
+    height: 60px;
+}
+
+.sectionContent p {
+    font-size: 24px;
+}
+
+.header-div {
+    display: flex;
+    justify-content: center;
+}
+
+.heading span {
+    background-color: rgba(255, 165, 0, .2);
+    color: orange;
+    font-size: 35px;
+    padding: 8px;
+    border-radius: 5px;
+}
+.explore-section{
+    margin: 15px;
+}
+.exploremain-div {
+    display: flex;
+}
+
+.explore-img {
+    width: 50%;
+    height: 500px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.explore-img img {
+    margin: 10px;
+}
+
+.explore-form {
+    width: 40%;
+    margin: 20px;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .1);
+    border-radius: .5rem;
+    padding: 20px;
+}
+
+.explore-form input {
+    display: block;
+    background-color: rgba(255, 165, 0, .2);
+    width: 90%;
+    height: 40px;
+    margin: 15px;
+    border: 0.1px solid rgb(205, 181, 153);
+    font-family: "Nunito", sans-serif;
+    border-radius: 3px;
+    padding: 10px;
+}
+.explore-form input:focus{
+    outline: none;
+}
+.explore-form input::placeholder{
+    color: black;
+}
+.explore-form label {
+    color: #666;
+    margin: 15px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+}
+.explore-form button {
+    margin: 15px;
+    height: 50px;
+    width: 120px;
+    font-family: "Nunito", sans-serif;
+    background-color: orange;
+    border: 0px;
+    border-radius: 2px;
+    width: 140px;
+    font-size: large;
+    color: white;
+}
+@media screen and (max-width:1036px) {
+.sectionContent{
+    height: 80%;
+}
+.sectionContent h1{
+    height: 60px;
+}
+}
+@media screen and (max-width:768px) {
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .sectionContent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* height:%; */
+    }
+
+    .Myheader {
+        display: none;
+    }
+    .sectionContent h1 {
+        font-size: 2rem;
+        height: 40px;
+    }
+
+    .video video {
+        width: "50%"
+    }
+
+    .exploremain-div {
+        /* display: grid;
+        grid-template-columns: auto; */
+    }
+    .explore-img {
+        width: 89%;
+    }
+    .explore-form {
+        width:89%
+    }
+    .explore-form input{
+        width:89%
+    }
+    .explore-img img{
+        max-width: 97%;
+    }
+    .heading span {
+        font-size: 18px;
+        padding: 2px;
+        border-radius: 5px;
+    }
+    .slider-img {
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+    .box{
+        width: 100%;
+        margin: 0px;
+
+    }
+    .box button{
+        width: 100px;
+        height: 50px; 
+     
+    }
+    .box img{
+        max-width: 100%;
+    }
+}
+@media screen and (max-width:430px) {
+    .explore-form {
+        width:89%
+
+    }
+    .exploremain-div{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .explore-img img{
+        max-width: 100%;
+    }
+    .sectionContent{
+        height: 45%;
+    }
+}
+@media screen and(max-height:720px){
+    .sectionContent{
+        height: 70%;
+    }
+    .sectionContent h1{
+        height: 50px;
+    }
+}

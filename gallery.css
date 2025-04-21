@@ -1,0 +1,27 @@
+.gallery{
+    margin: 14px;
+}
+.gallery-div{
+    display: flex;
+    justify-content: center;
+}
+.gallery-box{
+    width: 324px;
+    height: 240px;
+   box-shadow: 0 1rem 2rem rgba(0, 0, 0, .1);
+   margin: 5px;
+    border-radius: 5px;
+}
+.gallery-box img{
+    margin: 10px;
+}
+.gallery-main-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+@media screen and (max-width:768px){
+    .gallery-img{
+        
+    }
+}

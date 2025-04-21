@@ -1,0 +1,41 @@
+.review-div{
+    display: flex;
+    justify-content: center;
+}
+.review-box{
+    width: 25%;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .1);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.review-box img{
+    border-radius: 50%;
+}
+.review-box img{
+    display: flex;
+    margin: auto;
+}
+.review-box h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: "Nunito";
+}
+.review-box p{
+    font-family: "Nunito";
+    color: grey;
+}
+.review-box i{
+    color: orange;
+}
+.review-main-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+@media screen and (max-width:430px){
+    .review-box{
+        width: 100%
+    }
+}

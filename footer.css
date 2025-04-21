@@ -1,0 +1,88 @@
+.main-footer{
+    background-color: #333;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #333;
+    color: white;
+    font-size: 20px;
+}
+.footer-about{
+    width: 30%;
+    font-family: "Nunito";
+}
+.footer-branch{
+    width: 30%;
+    font-family: "Nunito";
+}
+.footer-branch li{
+    list-style: none;
+    margin: 10px;
+}
+.footer-branch li a{
+    color: white;
+    text-decoration: none;
+}
+.footer-quicklinks{
+    width: 30%;
+    font-family: "Nunito";
+}
+.footer-quicklinks li{
+    list-style: none;
+    margin: 10px;
+}
+.footer-quicklinks li a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-followus{
+    width: 30%;
+    font-family: "Nunito";
+}
+.footer-followus li{
+    list-style: none;
+    margin: 10px;
+}
+.footer-followus li a{
+    color: white;
+    text-decoration: none;
+}
+.last-footer{
+    color: white;
+    font-family: "Nunito";
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+}
+.last-footer h1{
+    font-size: 25px;
+}
+@media screen and (max-width:768px){
+    .main-footer hr{
+        width: 100%;
+        text-align: center;
+        font-weight: 100;
+    }
+    .last-footer h1{
+        font-size: 20px;
+
+    }
+}
+@media screen and (max-width:430px){
+    .last-footer{
+        font-size:xx-small;
+    }
+    .main-footer hr{
+        width: 100%;
+    }
+    .last-footer h1{
+        font-size: 15px;
+    }    
+    .footer{
+        font-size: 17px;
+    }
+}
+

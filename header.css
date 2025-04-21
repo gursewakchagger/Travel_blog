@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+}
+.hamburger{
+    display: none;
+    background-color: #333;
+}
+.nav{
+    display: none;
+}
+.navbar li{
+    list-style: none;
+    padding: 10px;
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    font-family: "Nunito", sans-serif;
+    font-size: larger;
+}
+header{
+    display: flex;
+    background-color: #333;
+    height: 70px;
+    width: 100%;
+    justify-content: space-evenly;
+    z-index: 1000;
+    position:fixed;
+}
+.heading{
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 8px;
+}
+.icon{
+    display: flex;
+    align-items: center;
+}
+.icon i{
+    padding: 7px;
+    font-size: 1.5em;
+}
+html{
+    font-family: "Nunito";
+    font-size: 14px;
+}
+#Mynavbar{
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: #333;
+    z-index: 1;
+  }
+  #Mynavbar ul li a:hover{
+    color: orange;
+  }
+  
